@@ -25,11 +25,11 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "excon", "~> 0.71"
   spec.add_runtime_dependency "dry-struct", "~> 0.5.0"
-  spec.add_runtime_dependency "dry-types", "~> 0.13.0"
+  spec.add_runtime_dependency "dry-types", "~> 1.4"
   spec.add_runtime_dependency "recursive-open-struct", "~> 1.1.0"
   spec.add_runtime_dependency 'hashdiff', '~> 1.0.0'
   spec.add_runtime_dependency 'jsonpath', '~> 0.9.5'
-  spec.add_runtime_dependency 'yajl-ruby', '~> 1.4.0'
+  spec.add_runtime_dependency 'yajl-ruby', '~> 1.2.1'
   spec.add_runtime_dependency "yaml-safe_load_stream", "~> 0.1"
 
   spec.add_development_dependency "bundler", ">= 1.17", "< 3.0"
