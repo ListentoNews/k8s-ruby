@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '~> 2.4'
 
   spec.add_runtime_dependency "excon", "~> 0.71"
-  spec.add_runtime_dependency "dry-struct", "~> 0.5.0"
+  spec.add_runtime_dependency "dry-struct", "~> 1.4.0"
   spec.add_runtime_dependency "dry-types", "~> 1.4"
   spec.add_runtime_dependency "recursive-open-struct", "~> 1.1.0"
   spec.add_runtime_dependency 'hashdiff', '~> 1.0.0'
